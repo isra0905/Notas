@@ -68,7 +68,7 @@ public class EditActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 } else {
-                    editText.setError("Content can't be empty");
+                    editText.setError("El contenido ni puede estar vacío.");
                 }
             }
         });
